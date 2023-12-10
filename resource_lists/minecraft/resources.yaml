@@ -9659,3 +9659,42 @@ resources:
   Verdant Froglight:
     recipes:
     - recipe_type: Raw Resource
+
+  Imput Node:
+    recipes:
+    - output: 1
+      recipe_type: Crafting
+      requirements:
+        Eye of Ender: -16
+        Barrel: -16
+        Piston: -48
+        Netherite Ingot: -4
+        Hopper: -24
+        Block of Redstone: -64
+        Chest: -16
+    - recipe_type: Raw Resource
+    
+  Output Content Node:
+    recipes:
+    - output: 2
+      recipe_type: Crafting
+      requirements:
+        Piston: -16
+        Barrel: -16
+        Hopper: -4
+        Netherite Ingot: -1
+        Block of Redstone: -16
+        Chest: -16
+    - recipe_type: Raw Resource
+    
+  Connector Node:
+    recipes:
+    - output: 8
+      recipe_type: Crafting
+      requirements:
+        Block of Copper: -48
+        Eye of Ender: -16
+        Netherite Ingot: -1
+        Amethyst Shard: -8
+        Hopper: -4
+    - recipe_type: Raw Resource
